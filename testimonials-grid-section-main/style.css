@@ -14,20 +14,25 @@ body {
 
 .test-a {
     background-color: var(--primaryviolet);
+    color: var(--white);
 }
 
 .test-b {
     background-color: var(--primarygrayblue);
+    color: var(--white);
 }
 
 .test-c {
     background-color: var(--white);
+    color: var(--primarygrayblue)
 }
 
 .test-d {
     background-color: var(--primaryblackblue);
+    color: var(--neautralgrayblue);
 }
 
 .test-e {
     background-color: var(--white);
+    color: var(--primarygrayblue);
 }
