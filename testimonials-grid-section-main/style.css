@@ -1,0 +1,33 @@
+:root {
+    --primaryviolet: hsl(263, 55%, 52%);
+    --primarygrayblue: hsl(217, 19%, 35%);
+    --primaryblackblue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    --neutralgray: hsl(0, 0%, 81%);
+    --neautralgrayblue: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: var(--neautralgrayblue);
+}
+
+.test-a {
+    background-color: var(--primaryviolet);
+}
+
+.test-b {
+    background-color: var(--primarygrayblue);
+}
+
+.test-c {
+    background-color: var(--white);
+}
+
+.test-d {
+    background-color: var(--primaryblackblue);
+}
+
+.test-e {
+    background-color: var(--white);
+}
